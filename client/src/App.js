@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./components/About";
+
 import Home from "./components/Home";
 import Notestate from "./context/notes/NotesState";
 import Alert from "./components/Alert";
@@ -30,7 +30,7 @@ function App() {
           <div className="container">
             <Routes>
               <Route exact path="/" element={<Home  salert={salert}/>} />
-              <Route exact path="/about" element={<About />} />
+              
               <Route exact path="/login" element={<Login salert={salert} />} />
               <Route exact path="/signup" element={<Signup salert={salert} />} />
             </Routes>

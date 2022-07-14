@@ -43,11 +43,7 @@ export default function Navbar() {
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/about">
-                  About
-                </Link>
-              </li>
+              
             </ul>
             
             {!localStorage.getItem('name')?<h4 className="d-none"></h4>:<h5 className="text-light mr-3"><i class="fas fa-user-circle"></i> Hello {localStorage.getItem('name')}</h5>}
