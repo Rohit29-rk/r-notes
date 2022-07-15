@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NoteContext from "./noteContext";
 
 const Notestate = (props) => {
-  const host = "https://r-notes.herokuapp.com/";
+  const host = "https://r-notes.herokuapp.com";
   const notesInitial = [];
   // eslint-disable-next-line
   const [notes, setNotes] = useState(notesInitial);
