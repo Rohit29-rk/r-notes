@@ -34,7 +34,7 @@ const Noteitem = (props) => {
               className="fas fa-trash-alt mx-2"
               style={{
                 padding: "10px",
-                background: "hwb(0deg 100% 0%)",
+                background: "white",
                 borderRadius: "50px",
                 boxShadow: "inset rgb(144 144 151) 0px 0px 20px 0px",
               }}
@@ -50,7 +50,7 @@ const Noteitem = (props) => {
               }}
               style={{
                 padding: "10px",
-                background: "hwb(0deg 100% 0%)",
+                background: "white",
                 borderRadius: "50px",
                 boxShadow: "inset rgb(144 144 151) 0px 0px 20px 0px",
               }}

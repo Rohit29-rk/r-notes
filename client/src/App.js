@@ -8,6 +8,7 @@ import Notestate from "./context/notes/NotesState";
 import Alert from "./components/Alert";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
               <Route exact path="/signup" element={<Signup salert={salert} />} />
             </Routes>
           </div>
+          <Footer/>
         </Router>
       </Notestate>
     </>
