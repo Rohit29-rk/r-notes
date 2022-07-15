@@ -1,6 +1,7 @@
 # r-notes
-This is a note taking app made usingMERN stack
+This is a note taking app made using MERN stack
 
+You can use this side om [R-Notes](https://r-notes.herokuapp.com/)
 
 # Getting Started with Create React App
 
