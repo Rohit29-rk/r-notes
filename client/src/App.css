@@ -83,3 +83,29 @@ transform: rotate(0);
 i{
   cursor: pointer;
 }
+footer{
+  background: #000;
+  padding-top: 2%;
+  margin-top: 15px;
+  position: relative;
+}
+
+footer span{
+  padding: 0.3em 0.7em;
+  color: #dbc1ac;
+  transition: all .5s ease;
+}
+footer p{
+  color: #dbc1ac;
+  font-size: 20px;
+}
+footer .top a{
+  position: absolute;
+  right: 2%;
+  top: 69%;
+  color: #dbc1ac;
+  font-size: 20px;
+}
+footer span a{
+  color: #dbc1ac !important;
+}
