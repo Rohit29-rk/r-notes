@@ -1,5 +1,5 @@
 const mongoose =require('mongoose');
-const mongoURL= "mongodb+srv://rohit29:rohit@cluster0.k2zjz.mongodb.net/rnotebook?retryWrites=true&w=majority"
+const mongoURL= "mongodb_url"
 const connectToMongo=()=>{
     mongoose.connect(mongoURL ,{
         
